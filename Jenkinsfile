@@ -9,7 +9,7 @@ pipeline {
                     
                     sh 'docker build -t reactproject .'
                     
-                    sh 'docker run -d --name react -p 80:32768 reactproject'
+                    sh 'docker run -d --name react -p 80:4000 reactproject'
                 }
             }
         }
