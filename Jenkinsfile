@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Pull from SCM') {
             steps {
-            git branch: 'master', 
-            url: 'https://bagit.bassure.in/rajcloud12/react.git',
+            git branch: 'main', 
+            url: 'https://github.com/rajdevops12/react',
             credentialsId: 'Github_Integration' 
             }
         }
