@@ -5,7 +5,6 @@ RUN npm install --silent
 COPY . ./
 RUN npm run build
 
-
 # Stage 2
 
 FROM nginx:1.17.1-alpine
